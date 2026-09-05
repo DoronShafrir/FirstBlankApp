@@ -7,16 +7,20 @@ const ThemedTextInput = ({ style, ...props }) => {
 
   console.log("colorScheme:", colorScheme)
   console.log("theme:", theme)
-  console.log("uiBackground:", theme.uiBackground)
+  console.log("uniBackground:", theme.uniBackground)
 
   return (
     <TextInput
       style={[
         {
-          backgroundColor: theme.uiBackground,
+          backgroundColor: theme.uniBackground,
           color: theme.text,
-          padding: 5,
-          borderRadius: 6
+          padding: 10,
+          borderRadius: 6,
+          height: 20,
+          marginHorizontal: 30,
+          marginBottom: 20,
+          minHeight: 40,
         },
         style
       ]}

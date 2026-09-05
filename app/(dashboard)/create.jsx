@@ -89,16 +89,15 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     input: {
-        padding: 20,
-        borderRadius: 6,
+        
         alignSelf: 'stretch',
-        marginHorizontal: 40
+       
+        
     },
     multiline: {
-        padding: 20,
-        borderRadius: 6,
+       
         minHeight: 100,
         alignSelf: 'stretch',
-        marginHorizontal: 40,
+        
     }
 })
